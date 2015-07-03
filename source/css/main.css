@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+header{
+    width: 960px;
+    height: 120px;
+    margin: 20px auto 10px;
+    background-color: white;
+    box-shadow: 0px 0px 1px gray;
+}
+
+header img{
+    float: left;
+    width: 220px;
+    height: 100px;
+    margin: 10px;
+}
+
+#search{
+    float: right;
+    margin: 20px;
+}
+
+input[type="text"]{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+input[type="password"]{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+input[type="email"]{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+input[type="submit"]:hover{
+    background-color: azure;
+}
+
+input[type="submit"]:active{
+    background-color: lightblue;
+}
+
+input[type="button"]{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+input[type="button"]:hover{
+    background-color: azure;
+}
+
+input[type="button"]:active{
+    background-color: lightblue;
+}
+
+nav{
+    width: 960px;
+    background-color: royalblue;
+    margin: 0px auto;
+    color: white;
+    text-transform: uppercase;  
+    box-shadow: 0px 0px 1px gray;
+}
+
+nav ul{
+    list-style: none;
+}
+
+a, a:hover, a:visited, a:active{
+    color:inherit;
+    text-decoration: inherit;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+    transition: background-color 150ms;
+}
+
+nav ul li:hover{
+    background-color: dodgerblue;
+}
+
+main{
+    width: 960px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 0px 1px gray;
+}
+
+#bottom, #article_bottom{
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    padding: 0px;
+    clear: both;
+}
+
+footer{
+    width: 950px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+    box-shadow: 0px 0px 1px gray;
+}
+
+article{
+    clear: both;
+    display: inline-block;
+    border: 1px solid lightgray;
+    width : 300px;
+    padding: 5px 5px 0px;
+    transition: all 150ms;
+}
+article:hover{
+    border: 1px solid royalblue;
+    background-color: azure;
+}
+
+article img{
+    width: 160px;
+    height: 100px;
+    float: left;
+}
+
+article div#info{
+    height: 100px;
+    width: 120px;
+    float: left;
+    padding: 5px;
+}
+
+#video_container{
+    margin: 10px auto;
+    width: 945px;
+}
+
+h1{
+    font-size: 20px;
+    margin: 0px 10px -5px 80px;
+    padding: 5px;
+    text-shadow: 1px 1px 2px lightgray;
+    color: #191919;
+}
+
+p#title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p#author{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+p#date {
+    float: left;
+    font-size: 12px;
+}
+
+p#views{
+    float: right;
+    font-size: 12px;
+}
+
+img#view{
+    width:16px;
+    height: 16px;
+}
+
+video{
+    margin: 5px;
+    height: 360px;
+    max-width: 640px;
+}
+
+h2{
+    padding: 5px;
+    margin: -12px 10px -5px 20px;
+}
+
+p#user{
+    font-size: 16px;
+    margin: 0px;
+    margin-left: 50px;
+}
+
+p#user a:hover{
+    text-shadow: 0px 0px 1px black;
+}
+
+p#upload_date{
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 40px;
+}
+
+main form#user{
+    padding: 10px;
+}
+
+main form#user table{
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+main form#user table input[type="submit"]{
+    width: 120px;
+}
+
+#profile table#info{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    border: 1px solid lightgray;
+    width: 310px;
+}
+
+table tr{
+    display: block;
+}
+
+table td{
+    min-width: 90px;
+    padding: 2px;
+}
+
+#botmargin20{
+    height: 20px;
+}
+
+input[type="file"]{
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+textarea{
+    width: 260px;
+    height: 110px;
+}
+
+#upload input[type="text"]{
+    width: 250px;
+}
+
+#upload input[type="file"]{
+    width: 250px;
+}
+
+#upload table{
+    margin: 20px auto;
+    border: 1px solid lightgray;
+}
+
+#description{
+    float:right;
+    margin: 20px 20px;
+    width: 270px;
+    text-justify: distribute;
+}
