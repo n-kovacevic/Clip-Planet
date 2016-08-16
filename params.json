@@ -1,0 +1,6 @@
+{
+  "name": "Clip Planet",
+  "tagline": "My school project",
+  "body": "![ISWD](http://nkg5.github.io/res/projects/iswd.jpg)\r\nSummary\r\n----\r\nThis is a website I created for school exam.\r\nIt's purpose was only to get passing grade so security is pretty bad.\r\n\r\nYou can visit website on next [link](http://nkg5.cf).\r\n\r\nSecurity issues\r\n---------------\r\nMost of the scripts don't check if any users is logged in.\r\nTherefore if anybody access upload script while logged out script will upload video and user uploading video will be set to \"admin\".\r\nIt is possible to upload only .png files as video thumbnail.\r\nUploading any other file will result in video not having thumbnail.\r\nIt might be possible to register user without a password.\r\nAnd many other issues which I do not plan on fixing in the future.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
